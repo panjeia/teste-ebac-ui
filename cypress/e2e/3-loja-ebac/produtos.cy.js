@@ -32,12 +32,13 @@ describe('Funcionalidade: Produtos', () => {
     });
 
     it.only('Deve adicionar o produto ao carrinho - Buscando da massa de dados', () => {
-        let ps = 0
+        let ps = 2
+    
 
         cy.fixture('produtos').then(dados => {
         produtosPage.buscarProduto(dados[ps].nomeProduto)
         produtosPage.addProdutocarrinho(
-            dados[ps].tamaho, 
+            dados[ps].size, 
             dados[ps].cor, 
             dados[ps].quantidade)
         cy.get('.woocommerce-message').should('contain', dados[ps].nomeProduto)

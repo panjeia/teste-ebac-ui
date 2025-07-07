@@ -1,19 +1,19 @@
 [
     {
         "nomeProduto": "Montana Wind Jacket",
-        "tamanho": "L",
+        "size": "L",
         "cor": "Black",
         "quantidade": 4
     },
     {
         "nomeProduto": "Celeste Sports Bra",
-        "tamanho": "L",
+        "size": "L",
         "cor": "Red",
         "quantidade": 3
     },
     {
         "nomeProduto": "Aero Daily Fitness Tee",
-        "tamanho": "M",
+        "size": "M",
         "cor": "Yellow",
         "quantidade": 2
     }

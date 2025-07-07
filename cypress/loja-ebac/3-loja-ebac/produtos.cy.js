@@ -31,7 +31,7 @@ describe('Funcionalidade: Produtos', () => {
         cy.get('.woocommerce-message').should('exist')
     });
 
-    it.only('Deve adicionar o produto ao carrinho - Buscando da massa de dados', () => {
+    it('Deve adicionar o produto ao carrinho - Buscando da massa de dados', () => {
         let ps = 2
     
 
